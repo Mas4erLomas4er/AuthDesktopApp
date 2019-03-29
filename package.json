@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "djbvfhjdebvkjmhzdfbvkhsdbfvcsfcjsehhbvfjdgfhtnhhyny",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mas4erLomas4er",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}

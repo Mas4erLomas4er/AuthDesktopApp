@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GDC (Google Developer Community)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <main>
+
+            <div class="auth">
+                <div class="auth-switcher">
+                    <a class="form-title active">Sign in</a>
+                    <a class="form-title">Sign up</a>
+                </div>
+                <form action="" class="sign-in showed">
+                    <label for="login">Username or e-mail</label>
+                    <input type="text" name="login" id="login" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+
+                    <button type="submit" class="submit">Sign in</button>
+                </form>
+                <form action="" class="sign-up">
+                    <label for="name">Username</label>
+                    <input type="text" name="login" id="name" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="f-password">Password</label>
+                    <input type="password" name="password" id="password" required>
+
+                    <label for="s-password">Confirm password</label>
+                    <input type="password" name="s-password" id="s-password" required>
+
+                    <button type="submit" class="submit sub-up">Sign up</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script>
+		require( './render.js' )
+    </script>
+</body>
+</html>
